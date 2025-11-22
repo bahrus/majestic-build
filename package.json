@@ -1,6 +1,6 @@
 {
   "name": "majestic-build",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Generate *.html and *.json from *.mjs",
   "homepage": "https://github.com/bahrus/majestic-build#readme",
   "bugs": {
