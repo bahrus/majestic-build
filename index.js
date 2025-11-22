@@ -32,8 +32,11 @@ async function findMjsFiles(dir, fileList = []) {
  */
 async function processMjsFile(filePath) {
   try {
+    // Convert file path to file:// URL for Windows compatibility
+    const fileUrl = new URL(`file:///${filePath.replace(/\\/g, '/')}`).href;
+    
     // Dynamically import the module
-    const module = await import(filePath);
+    const module = await import(fileUrl);
     
     // Check if it has a render export
     if (typeof module.render !== 'function') {
