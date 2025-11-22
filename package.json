@@ -1,0 +1,20 @@
+{
+  "name": "majestic-build",
+  "version": "0.0.0",
+  "description": "Generate *.html and *.json from *.mjs",
+  "homepage": "https://github.com/bahrus/majestic-build#readme",
+  "bugs": {
+    "url": "https://github.com/bahrus/majestic-build/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahrus/majestic-build.git"
+  },
+  "license": "MIT",
+  "author": "Bruce B. Anderson <anderson.bruce.b@gmail.com>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
