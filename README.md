@@ -10,4 +10,4 @@ What this does:
 4.  If the function returns a string that starts with a "<" characters, (over)write to a file with the same file name but with extension ".html" instead of ".mjs".
 5.  If the function returns a string that starts with either a "[" or a "{" character, (over)write to a file with the same file name but with extension ".json" instead of ".mjs"
 
-Generated from [Claude AI](https://claude.ai/public/artifacts/6526e396-690a-4a5a-8bb5-49c0b6c0358d)
+Generated from [Claude AI](https://claude.ai/public/artifacts/832633ff-3a0d-47f5-92b5-1118290f0b4f)
